@@ -1,0 +1,171 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	
+	background-color: #ffffff;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 60px;
+}
+
+footer .footer-left,
+footer .footer-center,
+footer .footer-right{
+	display: inline-block;  /* alinger les trois footer */
+	vertical-align: top;
+}
+
+/* Footer left */
+
+footer .footer-left{
+	width: 30%;
+}
+
+footer h3{
+	color:  #774936 ;
+	font-family: 'fantasy', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 32px;
+	margin: 0;
+}
+
+footer h3 span{
+	color:  #538d22;
+}
+
+/* Footer links */
+
+footer .footer-left-links{
+	margin: 20px 0 12px;
+}
+
+ .footer-left-links a{
+    color:  black ;
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+    background: none;
+    transition: all .5s;
+}
+
+ .copyright{
+	color:  black ;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+footer .footer-center{
+	width: 35%;
+    margin-left: 30px;
+}
+
+footer .footer-center i{
+	background-color:  #538d22;
+	color: #ffffff;
+	font-size: 20px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+footer .footer-center i:hover{
+    background-color:  black;
+
+}
+
+footer .footer-center p{
+	display: inline-block;
+	color: black;
+	vertical-align: middle;
+	margin:0;
+}
+
+footer .footer-center p a{
+    background: none;
+	color:  black;
+	text-decoration: none;;
+}
+
+/* Footer Right */
+
+footer .footer-right{
+	width: 30%;
+}
+
+footer .footer-contact{
+	line-height: 20px;
+	color:  black;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+footer .footer-contact span{
+	display: block;
+	color:  #774936;
+	font-size: 23px;
+	margin-bottom: 20px;
+	font-family: 'fantasy', sans-serif;
+	font-weight: bold;
+}
+
+footer .footer-icons{
+	margin-top: 36px;
+}
+
+footer .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  black;
+	border-radius: 50%;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+footer .footer-icons a i{
+    cursor: pointer;
+	margin: 8px 0;
+}
+
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 1009px) {
+
+	footer .footer-left,
+	footer .footer-center,
+	footer .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+    footer .footer-center .fa-location-dot{
+        margin-left: -80px;
+    }
+    footer .footer-center .fa-phone{
+        margin-left: -80px;
+    }
+}

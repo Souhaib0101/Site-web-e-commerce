@@ -1,0 +1,552 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Roboto:wght@100&display=swap');
+    
+
+/* ===== Part One Start ========= */
+.All{
+    background: #774a36;
+    height: calc(100vh - 0px);
+ 
+}
+.All h2{
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 2.5px;
+    font-size: 38px;
+}
+.All p{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 18px; 
+}
+
+.Titres{
+    margin: 145px 0 0 60px; /* top right bottom left */
+}
+.tasse{
+    margin: -400px 0 0 0px; /* top right bottom left */
+    float: right;
+}
+
+.Titres .btn{
+    background-color: #ffffff;
+    color:#49111c;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin-top: 40px;   
+    padding: 0.7rem;
+    transition: all 0.5s;
+    
+}
+.Titres .btn:hover{
+    background-color: #538d22;
+    color: white;
+}
+
+.tasse .cup{
+    width: 600px;   
+}
+
+/* ===== Part One End========= */
+
+
+/* ===== Part Two start========= */
+.The-Cards{
+    background-color: white;
+}
+.card-One , .Card-Two , .Card-Three {
+  
+    background-color: #528d22d9;
+    width: 300px;
+    height: 620px;
+    border-radius: 30px;
+    margin-top: 130px;
+    margin-left: 155px; 
+    position: relative; 
+}
+
+.Card-One h2 , .Card-Three h2{
+    color: white;
+    font-family: 'montserrat';
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-align: center;   
+}
+.Card-One h5 , .Card-Three h5 {
+    color: #49111c ;
+    font-family: 'montserrat';
+
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-top: 48px;
+    text-align: center;
+}
+.Card-One p {
+   
+    color: white ;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    margin-top: -45px;
+    margin-left: 75px;
+    letter-spacing: 0.8px;
+}
+
+.Colombia , .Bresil , .Ethopia{
+   width: 50px;
+   height: 50px;
+   border: none;
+   border-radius: 100px;
+   cursor: pointer;
+   background-size: cover ;
+   margin-left: 15px;
+   margin-top: 8px;
+}
+.Colombia{ background-image : url("../images/Home-Pics/colombia-drapo.png"); } 
+.Bresil{ background-image : url("../images/Home-Pics/brazil-drapo.png"); }
+.Ethopia{ background-image : url("../images/Home-Pics/ethiopia-drapo.png"); }
+
+
+.Card-One .btn{
+    background-color: #49111c;
+    color: white ;
+    width: 190px;
+    height: 45px;
+    font-weight: bold;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    margin-top: 25px;   
+    margin-left: 45px; 
+    position: absolute;
+    top: 85%;
+    
+    padding: 0.7rem;
+    transition: all 0.5s;
+}
+.Card-One .btn:hover{
+    background-color: white;
+    color: #538d22;
+}
+
+.Card-Two {
+    background-image: url("../images/Home-Pics/drink.png");
+    background-size: cover;
+    margin-top: 80px;
+    width: 320px;
+    height: 550px;
+}
+
+.Noir , .Noir-Lait , .Ice-Coffe{
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    background-size: cover ;
+    margin-left: 15px;
+    margin-top: 8px;
+ }
+
+.Noir{ background-image : url("../images/Home-Pics/noir.png");} 
+.Noir-Lait{ background-image : url("../images/Home-Pics/noir-lait.png");}
+.Ice-Coffe{ background-image : url("../images/Home-Pics/ice-coffee.png");}
+
+.Card-Three p{
+    color: white ;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    margin-top: -50px;
+    margin-left: 100px;
+    letter-spacing: 0.8px;
+}
+
+ .Card-Three .btn{
+    background-color: #49111c;
+    color: #ffffff;
+    width: 190px;
+    height: 45px;
+    font-weight: bold;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin-top: 40px;   
+    margin-left: 45px; 
+    padding: 0.7rem;
+    transition: all 0.5s;
+}
+.Card-Three .btn:hover{
+    background-color: white;
+    color: #538d22;
+}
+
+/* ===== Part Two End========= */
+
+.Steps{
+    margin-top: 70px;
+    display: flex;
+    background-color: #528d22d6;
+/*     display: flex;
+    justify-content: space-around; */
+}
+
+.Step-One , .Step-Two , .Step-Three , .Step-Four{
+    margin-top: 160px;
+    margin-left: 140px; 
+    margin-bottom: 235px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size : cover;
+    background-color: white;  
+    transition: all 0.5s;
+    
+}
+.Step-One:hover , .Step-Two:hover , .Step-Three:hover , .Step-Four:hover{
+    transform: scale(1.1);
+}
+
+
+.Step-Two , .Step-Four{
+    margin-top: 200px;
+   
+  
+}
+
+.Step-One{ background-image : url("../images/Home-Pics/Red-Beans.png"); } 
+.Step-Two{ background-image : url("../images/Home-Pics/Green-Beans.png");}
+.Step-Three{ background-image : url("../images/Home-Pics/Brown-Beans.png");}
+.Step-Four{ background-image : url("../images/Home-Pics/Coffe-Ground.png");}
+
+.Steps h1{
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    color : #49111c ;
+    margin-top: 35px;
+    font-size: 35px;
+}
+.Steps span{
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    color : #ffffff ;
+    font-size: 18px;
+}
+
+.Steps h2{
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color : #49111c ;
+    margin-top: -50px;
+    font-size: 20px; 
+}
+.click-more{
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius:50px;
+    visibility: hidden;
+
+}
+
+.click-more a{
+   color: green;
+   background: none;
+   
+}
+.Steps p {
+    visibility: hidden;
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    font-size: small;
+    margin-top: 230px;
+    text-align:start;
+}
+
+.Step-One:hover .click-more , 
+.Step-Two:hover .click-more, 
+.Step-Three:hover .click-more ,
+.Step-Four:hover .click-more
+{
+    visibility: visible;
+
+}
+
+.Step-One:hover p , 
+.Step-Two:hover p , 
+.Step-Three:hover p ,
+.Step-Four:hover p
+{
+    visibility: visible;
+}
+
+
+@media (max-width: 1228px){
+
+.tasse{
+    display:none;
+}
+.tasse .cup{
+    display:none;
+}
+
+}
+  
+
+
+/* ================================================================= */
+
+/* Start Page 2 Produits */
+.Pre-Produits{
+    background-color: #538d22;
+    height: calc(100vh - 0px);
+}
+
+.Pre-Produits h2{
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 2.5px;
+    font-size: 38px;
+}
+
+.Pre-Produits p{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 18px; 
+}
+.Pre-Titres{
+    margin: 170px 0 0 60px;  /* top right bottom left */
+}
+.beans-img{
+    margin: -240px 20px 0 0;  /* top right bottom left */
+    float: right;
+}
+
+.beans-img img{
+    width: 630px;
+}
+
+.section-divider {
+    border: 1px solid rgba(0, 0, 0, 0.329); 
+    margin: 20px 0; /* ligne entre sections en page produits*/
+}
+
+.d-flex{
+    justify-content:space-around ;
+}
+
+.quantity{
+    width: 75px;  
+}
+
+#title-product{
+    color: #49111c;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#sous-title-product{
+    color: #538d22;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#remise{
+    text-decoration: line-through;
+    color: red;
+}
+
+@media (max-width: 1204px){
+    .beans-img{
+        display: none;
+    }
+
+}
+   
+
+/* ================================================================= */
+
+/* Start Page 3 Coffee */
+
+.Pre-Coffee{
+    background-image: url("../images/bgHome.jpg");
+    background-size: cover;
+    height: calc(100vh - 0px);
+}
+
+.Pre-Coffee h2{
+    color: black;
+    font-family: fantasy;
+    letter-spacing: 2.5px;
+    font-size: 38px;
+
+
+}
+
+.Pre-Coffee p{
+    color: #49111c;
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.Coffe-titles{
+    margin: 145px 0 0 60px;  /* top right bottom left */
+}
+
+.cafe-moulu {
+    margin: -270px 0 0 0px; 
+    float: right;
+}
+
+.cafe-moulu img{
+    width: 700px;
+}
+
+/* 2eme partie */
+
+
+.section-coffee{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    background-color: white;
+    border-top-left-radius:50px ;
+    border-bottom-right-radius:250px ;
+}
+
+.origin-name , .origin-history{
+    background-color: transparent;
+    border: none; 
+}
+
+
+.name .content , .history .content{
+    border: none;
+    background: transparent;
+    text-align: justify;
+}
+.history .content h2{
+    text-align: center;
+}
+.origin-history img{
+    border-radius: 10px;
+}
+
+.history{
+    background-color: white;
+   border-radius: 50px;
+}
+.content h2{
+    font-family: 'montserrat';
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* 3eme partie*/
+
+.detail-title{
+    color: #49111c;
+    font-family: fantasy;
+    letter-spacing: 2.5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-detail-title{
+    color: green;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-detail-text{
+    text-align: justify;
+}
+
+.detail-card{
+
+    border-bottom-right-radius: 100px ;
+    background-color: rgba(0, 128, 0, 0.222);
+    margin-left: 10px;
+}
+
+.picture-detail{
+
+    background-image: url(../images/Coffee-pics/Depulping.avif);
+    background-size: cover;
+}
+
+.picture-detail-two{
+
+    background-image: url(../images/Coffee-pics/roasting.jpeg);
+    background-size: cover;
+}
+
+
+/* section four*/
+.section-four{
+    background-color: #538d22;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-four-title{
+    color: #ffffff;
+    font-family: fantasy;
+    letter-spacing: 3.5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section-four-soustitle{
+    color: #ffffff;
+    letter-spacing: 2.5px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-four h3{
+    text-align: center;
+    color: green;
+    font-family: fantasy;
+    letter-spacing: 3px;  
+}
+
+.card-section-four img{
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.card-section-four{
+    border: none;
+    border-bottom-right-radius: 100px;
+    width: 450px;
+}
+
+@media (max-width: 1246px){
+
+    .cafe-moulu{
+        display:none;
+    }
+    .cafe-moulu img{
+        display:none;
+    }   
+}
+
+@media (max-width: 1000px){
+ .col-md-6{
+    width: calc(100% - 20px);
+ }
+}
+

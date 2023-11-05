@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family :var(--bs-body-font-family);
+}
+nav{
+  background-color: white;
+  z-index: 0;
+  border: none;
+  height: 100px;
+  width: 100%;
+
+}
+
+label.logo{
+  color: #582f0e;
+  font-size: 40px;
+  line-height: 85px;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 4%;
+ 
+}
+nav ul{
+  margin-right: 35px;
+  float: right;
+}
+
+nav ul li{
+  display: inline-block; /* alignement verticale des options */
+  line-height: 95px; /* haut des options */
+  margin: 0 5px; 
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #582f0e;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 7px 13px;  /* hauteur - largeur --> cadres options */
+  border-radius: 3px; 
+  
+} 
+a.active,a:hover{
+  color: white;
+  background: #582f0e; /* actif : cible le lien actuel */
+  transition: .5s;  /* hover : fonctionne avec curseur */
+}
+
+#thecart{
+  background: none;
+  text-decoration: none;
+  color: #582f0e;
+}
+
+/* button check Options */ 
+.checkbtn{
+  font-size: 30px;
+  color: black;
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;    /* invisible */
+}
+  /* button checkbox */
+#check{
+  display: none;
+}
+
+/* les ecrans inferieure ou egale a 1195px */
+@media (max-width: 1225px){
+
+  label.logo{ 
+    padding: 0 7px;
+    float: left;
+  }
+
+  nav ul{
+    margin-right: 35px;
+    float: right;
+  }
+}
+
+/* les ecrans inferieure ou egale a 1005px */
+@media (max-width: 916px){
+
+  .checkbtn{
+    display: block ;  /* button de controle devient visible */
+  }
+  label.logo{
+    padding: 0 7px;
+    float: left;
+  }
+
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/nav-tel.jpeg);
+    background-size: cover;
+    top: 100px;
+    left: 100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block; /* les options devient un sur l'autres */
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px; /* police des liens */
+    background: none;
+    color:#582f0e;
+    font-weight: bold;
+   
+  }
+  a:hover,a.active{
+    color: white;
+    background-color:#6f4518  ;
+  }
+
+  #thecart{
+    color:#582f0e;
+  
+  }
+
+
+  /* fonction__affiche__menu__quand__button__cliqué*/
+  #check:checked ~ ul{
+    right: 0px; /* pour que le menu prend tout l'ecran */
+    left: 0px;
+    z-index: 1;
+    overflow-block: scroll;
+  }
+
+}
+
+
+
+
+
